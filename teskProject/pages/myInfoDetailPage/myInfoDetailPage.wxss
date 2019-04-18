@@ -1,0 +1,29 @@
+/* pages/myInfoDetailPage/myInfoDetailPage.wxss */
+.content{
+  padding:30rpx;
+}
+.item-style{
+  align-items:center;
+  height:90rpx;
+  font-size:32rpx;
+  color:#888;
+  border-bottom:1rpx solid #ccc; 
+  position:relative;
+  justify-content:space-between;
+}
+.left-content{
+  color: #444;
+}
+.right-content{
+  align-items:center;
+}
+.right-arrow{
+  width:30rpx;
+  height:40rpx;
+  margin-left:20rpx;
+}
+.content-image{
+  width:60rpx; 
+  height:60rpx;
+  border-radius:30rpx;
+}

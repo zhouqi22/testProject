@@ -1,0 +1,9 @@
+/* pages/myMoneyDetail/myMoneyDetail.wxss */
+.tabStyle{
+  position: sticky;
+  height: 88rpx;
+  background: red;
+  top:0;
+  text-align: center;
+  line-height: 88rpx;
+}

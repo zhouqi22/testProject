@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "navigationBarTitleText": "首页",
+  "usingComponents": {
+    "toast": "../../components/toast/toast",
+    "teskItem": "../../components/teskItem/teskItem"
+  }
+}

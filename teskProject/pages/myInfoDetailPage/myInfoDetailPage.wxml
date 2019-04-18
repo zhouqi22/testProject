@@ -1,0 +1,16 @@
+<!--pages/myInfoDetailPage/myInfoDetailPage.wxml-->
+
+<view class='content'>
+  <view class='flexRowStart item-style' catchtap='clickItem' data-itemindex='{{index}}' wx:for="{{infoList}}">
+    <view class='left-content' > {{item.title}}
+    </view>
+    <view wx:if='{{item.type == 2}}' class=' flexRowStart right-content'>
+      <image src='{{item.content}}' class='content-image'></image>
+      <image  src='/images/common_title_arrow.png' class='right-arrow'></image>
+    </view>
+    <view wx:else class=' flexRowStart right-content'>
+      <text>{{item.content}}</text>
+      <image  src='/images/common_title_arrow.png' class='right-arrow'></image>
+    </view>
+  </view>
+</view>

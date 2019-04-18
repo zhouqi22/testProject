@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "附近",
+  "component": true,
+  "usingComponents": {
+    "teskItem": "../../components/teskItem/teskItem"
+  }
+}

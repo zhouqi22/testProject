@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "任务详情",
+  "component": true,
+  "usingComponents": {
+    "toast": "../../components/toast/toast"
+  }
+}

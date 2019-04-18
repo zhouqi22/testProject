@@ -1,0 +1,14 @@
+<!--pages/systemMessagePage/systemMessagePage.wxml-->
+<view style='padding: 30rpx;'>
+  <block  wx:for="{{messageList}}" >
+     <view style='margin-bottom:30rpx; border-radius:20rpx; background:white; padding:30rpx; box-shadow: 0px 0px 10px #888; color: #888; font-size:30rpx;'>
+    <view style='border-bottom:1rpx solid #aaa; text-align:center; height:50rpx;'> 2019-04-01 00:00:00
+    </view>
+    <view style='color:#444; font-size:34rpx; padding:20rpx 0;'> 任务审核通过
+    </view>
+    <view > 任务审核通过任务审核通过任务审核通过任务审核通过任务审核通过任务审核通过任务审核通过任务审核通过任务审核通过任务审核通过
+    </view>
+
+  </view>
+  </block>
+</view>

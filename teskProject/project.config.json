@@ -1,0 +1,65 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.6.2",
+	"appid": "wxf171ff7ec2c3e6fd",
+	"projectname": "teskProject",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": 0,
+					"name": "问卷详情",
+					"pathName": "pages/questionDetailPage/questionDetailPage",
+					"query": ""
+				},
+				{
+					"id": 1,
+					"name": "信息",
+					"pathName": "pages/systemMessagePage/systemMessagePage",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "个人信息",
+					"pathName": "pages/myInfoDetailPage/myInfoDetailPage",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "钱包",
+					"pathName": "pages/myMoneyDetail/myMoneyDetail",
+					"query": ""
+				}
+			]
+		}
+	}
+}

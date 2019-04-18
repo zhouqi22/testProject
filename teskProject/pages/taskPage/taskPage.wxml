@@ -1,0 +1,13 @@
+<!--pages/taskPage/taskPage.wxml-->
+<view class='task-headTab'>
+  <view class='task-headTab-content' bindtap='clickTab' id='1'>
+   <text class="task-headTab-content-item {{selectTab == '1'?'task-headTab-content-item-select':''}}">进行中</text>
+  </view>
+  <view class='task-headTab-content' bindtap='clickTab' id="2">
+   <text class="task-headTab-content-item {{selectTab == '2'?'task-headTab-content-item-select':''}}">任务记录</text>
+  </view>
+</view>
+<view style='height:62rpx;'></view>
+ <view wx:for="{{taskList}}" wx:key="index">
+  <teskItem bindclickTaskDetail="clickTaskDetail"></teskItem>
+ </view>

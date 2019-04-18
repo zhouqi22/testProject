@@ -1,0 +1,7 @@
+{
+  "component":true,
+  "navigationBarTitleText": "任务门店",
+  "usingComponents": {
+    "teskItem": "../../components/teskItem/teskItem"
+  }
+}

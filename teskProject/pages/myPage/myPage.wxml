@@ -1,0 +1,28 @@
+<!--pages/myPage/myPage.wxml-->
+<view class='my-headView' catchtap='clickedInfoDetail'>
+ <image src='/images/scrollImage2.png' class='my-headView-image'></image>
+ <view class='my-headView-name'>
+   <view class='my-headView-name-content'>你是谁</view>
+   <view class='my-headView-name-content'>星星星</view>
+ </view>
+ <view style='position:absolute; right:0;top:70rpx;'>
+  <image src='/images/common_title_arrow.png' style='width:30rpx; height:40rpx;'></image>
+ </view>
+</view>
+<view class='middle-money' catchtap='clickMyMoney'>
+ <image style='width:50rpx; height:50rpx;margin:auto 0;margin-left:20rpx;' src='/images/ico_bi.png'></image>
+ <view style="height:160rpx; width:500rpx;font-size:32rpx;">我的探币</view>
+ <view style='text-align:center; position:absolute; font-size:55rpx;margin-left:550rpx;width:150rpx;'>2.1</view>
+</view>
+<view class='bottom-list'>
+<block wx:for="{{selectList}}" wx:key="*this">
+<view class='flexRowSpace-betweenCenter' style='border-bottom: 0.5rpx solid #aaa; padding: 20rpx 0;'data-index='{{index}}' catchtap='clickedItem'>
+  <view class='flexRowStart' style='height:50rpx;'>
+    <image src="{{item.icon}}" style="width:50rpx; height:50rpx;"></image>
+  <text style=" font-size:30rpx;line-height:50rpx;">{{item.content}}</text>
+  </view>
+  <image src='/images/common_title_arrow.png' style='width:30rpx; height:40rpx; float:right;'></image>
+</view>
+</block>
+</view>
+

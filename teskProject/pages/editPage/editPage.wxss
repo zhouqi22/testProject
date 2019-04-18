@@ -1,0 +1,7 @@
+/* pages/editPage/editPage.wxss */
+.editView{
+  margin: 30rpx;
+  border:1px solid #ccc;
+  padding:10rpx 20rpx; 
+  border-radius: 10rpx;
+}

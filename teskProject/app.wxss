@@ -1,0 +1,101 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.flexRowStart{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.flexRowSpace-between{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.flexRowSpace-betweenCenter{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexRowCenter{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flexRowStartcenter{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexRowCenterCenter{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.flexColStart{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.flexColEnd {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.flexColCenter{
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.flexColStartCenter {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flexColCenterCenter {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.textOneLine {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.textTwoLine {
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  color: #f00;
+  overflow: hidden;
+  white-space: pre-wrap;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

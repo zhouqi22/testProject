@@ -1,0 +1,35 @@
+<!--pages/taskDetailPage/taskDetailPage.wxml-->
+<view>
+ <view class='detail-header'>
+  <image src='/images/scrollImage2.png' class='detail-header-img'></image>
+   <view class='detail-header-content'>
+    <view class='detail-middel-title'>测试呀</view>
+    <view class='detail-middel-content'>宝山通河</view>
+    <view class='detail-middel-content'>通河路</view>
+   </view>
+ </view>
+ 
+ <view class='detail-middel'>
+  <view class='detail-middel-title'>任务领取报酬</view>
+  <view class= 'detail-middel-content'>最高可得0.5元探金</view>
+ </view>
+
+<view class='detail-middel'>
+  <view class='detail-middel-title'>任务领取时间</view>
+  <view class= 'detail-middel-content'>2019.03.02-2019.03.22</view>
+ </view>
+
+ <view class='detail-middel'>
+  <view class='detail-middel-title'>任务剩余数</view>
+  <view class= 'detail-middel-content'>9份</view>
+ </view>
+
+<view class='detail-bottom'>
+<view class='detail-bottom-btn' catchtap='clickGetTask'>领取</view>
+</view>
+
+<toast id="toast"></toast>
+
+</view>
+
+

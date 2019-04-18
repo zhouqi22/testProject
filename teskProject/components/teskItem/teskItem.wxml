@@ -1,0 +1,15 @@
+<!--componetes/teskItem/teskItem.wxml-->
+<view class='taskContent' catchtap='clickedDetail'>
+ <image class='taskContent-image' src='/images/scrollImage2.png'>
+ </image>
+ <view class='taskContent-content'>
+  <view class='taskContent-content-title' >20190321测试内容</view>
+  <view class='taskContent-content-model'  ><image src='/images/ico_bi.png' class='content-icon'></image><text class='content-text'>奖赏 0.5元任务金</text></view>
+  <view class='taskContent-content-model'><image src='/images/ico_time.png'  class='content-icon'></image><text class='content-text' >2019.03.02-2019.03.22</text></view>
+  <view class='taskContent-content-model'><image class='content-icon' src='/images/ico_ads.png'></image><text class='content-text'>上海</text></view>
+ </view>
+ <view class='taskContent-right'>
+ <view class='taskContent-right-button' catchtap='clickedButton'>抢单</view>
+ </view>
+</view>
+

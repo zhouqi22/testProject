@@ -1,0 +1,8 @@
+<!--components/ErrorComponent/ErrorComponent.wxml-->
+<view class='errorMian' wx:if="{{showView}}">
+  <image class="image_not" src="{{imageUrl}}"></image>
+  <view class="content">{{errorContent}}</view>
+  <view class = "description">{{errorDes}}</view>
+  <button wx:if="{{showSquare}}" class ="square" bindtap="goSquare">去广场看看</button>
+</view>
+

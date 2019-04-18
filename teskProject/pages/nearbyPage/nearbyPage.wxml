@@ -1,0 +1,22 @@
+<!--pages/nearbyPage/nearbyPage.wxml-->
+<view>
+<view class="headView">
+  <view class='flexRowStart' >
+    <view>
+    <text class='headView-find'>发现</text>
+    <text class='headView-city'>上海市</text>
+    </view>
+  <view style='position:relative;  height:70rpx;'> 
+  <image src='/images/ico_area.png'style='width:30rpx;height:30rpx; position:absolute; bottom:18rpx; ' ></image>
+  </view>
+  </view>
+  <view class='headView-search'>
+  <input class='headView-search-input' placeholder='搜索门店' placeholder-class='placeholder-class'></input>
+    <icon class='headView-search-icon' size='13' type='search'></icon>
+  </view>
+ </view>
+ <view style="height:70rpx;"></view>
+ <view wx:for="{{taskList}}" wx:key="*this">
+  <teskItem bindclickTaskDetail="clickTaskDetail"></teskItem>
+ </view>
+ </view>

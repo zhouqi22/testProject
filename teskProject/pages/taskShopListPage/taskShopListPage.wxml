@@ -1,0 +1,4 @@
+<!--pages/taskShopListPage/taskShopListPage.wxml-->
+<view wx:for="{{taskList}}" wx:key="index">
+  <teskItem bindclickTaskDetail="clickTaskDetail"></teskItem>
+ </view>

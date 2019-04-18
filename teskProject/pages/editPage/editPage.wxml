@@ -1,0 +1,17 @@
+<!--pages/editPage/editPage.wxml-->
+<view class='editView' wx:if='{{type == "1" || type == "3"}}'>
+  <input value="{{inputContent}}"  style='height: 50rpx; '></input>
+</view>
+<view class='editView' wx:if='{{type == "4"}}'>
+ <picker mode='selector' range="{{rangeData}}" value='{{index}}' bindchange="bindPickerChange">
+    <view class='flexRowSpace-betweenCenter' style='height:50rpx;'>
+      <view style='font-size:34rpx;'>{{showPicker}}</view>
+      <image src='/images/arrow_down.png' style='width:30rpx; height:30rpx;'></image>
+    </view>
+  </picker>
+</view>
+
+
+<view style='position:absolute; bottom: 200rpx;left:0; right:0;height:88rpx;'>
+  <view style='margin:0 100rpx; height:88rpx; border-radius:44rpx; background:blue; color: white; text-align:center;line-height:88rpx;' catchtap='clickSaveBtn'>保存</view>
+</view>

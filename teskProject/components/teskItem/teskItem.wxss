@@ -1,0 +1,77 @@
+/* componetes/teskItem/teskItem.wxss */
+.taskContent{
+ /* background: red; */
+ display: flex;
+ display: -webkit-flex;
+ flex-direction: row;
+ align-items: center;
+ width: 685rpx;
+ /* height: 200rpx; */
+ padding: 10rpx;
+ margin: 0 30rpx;
+ border-bottom: 0.5rpx solid #eee;
+ position: relative;
+}
+
+.taskContent-image{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 20rpx;
+}
+.taskContent-content{
+
+  width: 360rpx;
+  height: 100%;
+  padding: 20rpx 20rpx;
+  /* background:red; */
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* align-content: center; */
+}
+.taskContent-content-model{
+  display: flex;
+  display: -webkit-flex;
+  padding: 5rpx 0;
+}
+.taskContent-content-title{
+  font-size: 30rpx;
+}
+.content-text{
+  color: #aaa;
+  font-size: 26rpx;
+  width: 300rpx;
+  line-height: 30rpx;
+  /* background: blue; */
+  vertical-align:middle;
+  padding-left: 10rpx;
+
+}
+.content-icon{
+  width:30rpx;
+  height:30rpx;
+  /* vertical-align:middle; */
+
+}
+.taskContent-right-button{
+  background: gray;
+  padding: 0;
+  width: 100rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  border-radius: 10rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+
+.taskContent-right{
+  position: relative;
+  /* background: green; */
+  height: 100%;
+  width: 140rpx;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  align-items: flex-end;
+}

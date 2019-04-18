@@ -1,0 +1,53 @@
+/* pages/nearbyPage/nearbyPage.wxss */
+.headView{
+  height: 70rpx;
+  z-index: 100;
+  width: 100%;
+  /* background: red; */
+  line-height: 70rpx;
+  background: #fff;
+  position: fixed;
+  top:0;
+  left: 0;
+  /* border-bottom: 0.5px solid #333; */
+
+}
+.headView-find{
+  color: #333;
+  font-size: 40rpx;
+  padding-left: 30rpx;
+}
+.placeholder-class{
+  font-size: 25rpx;
+}
+.headView-city{
+  color: #999;
+  font-size: 30rpx;
+  padding-left: 5rpx;
+}
+.headView-search{
+  height: 50rpx;
+  top: 10rpx;
+  width: 350rpx;
+  border-radius: 15rpx;
+  position: absolute;
+  right: 30rpx;
+  background: #eee;
+}
+.headView-search-input{
+  height: 100%;
+  width: 80%;
+  /* background: blue; */
+  left: 20rpx;
+  position: absolute;
+
+
+}
+.headView-search-icon{
+  /* display: inline-block; */
+  float: right;
+  /* background: red; */
+  padding-top: 8rpx;
+  padding-right: 20rpx;
+  height: 35rpx;
+}

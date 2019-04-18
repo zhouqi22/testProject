@@ -1,0 +1,3 @@
+<cover-view animation="{{animationData}}" class="toast_content " style="opacity:{{opacity}}" wx:if="{{ isShow }}" >  
+    {{content}} 
+</cover-view>  

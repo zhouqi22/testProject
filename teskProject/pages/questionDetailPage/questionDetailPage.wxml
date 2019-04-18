@@ -1,0 +1,46 @@
+<!--pages/questionDetialPage/questionDetailPage.wxml-->
+<view style='margin:0 30rpx; font-size:34rpx;'>
+  <view >1、dafdsafdsfdsafdasfasf打发的范德萨范德萨发范德萨范德萨发的撒发生大范德萨分范德萨as</view>
+  <div style='padding:0 40rpx;'>
+    <view class='flexColCenter' >
+      <view class='flexRowStart'  bindtap='handleRadio' wx:for="{{radioData}}" data-index="{{index}}">
+        <radio checked='{{item.isSelect}}' style='transform:scale(0.6);-webkit-transform:scale(.8); height:100%;'></radio>
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+    <view class='flexColCenter' >
+      <view class='flexRowStart' bindtap='handleCheckbox' wx:for="{{checkboxData}}" data-index="{{index}}" >
+        <checkbox checked='{{item.isSelect}}' style='transform:scale(0.6);-webkit-transform:scale(.8);'></checkbox>
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+    <view style='padding: 20rpx 30rpx; height:40rpx;'>
+     <input style='border-bottom:1rpx solid gray;' ></input>
+    </view>
+    <view class='flexRowStart'style= " margin:0 30rpx; flex-wrap:wrap; ">
+      <block wx:for="{{images}}">
+      <view style='width:33.3%; height:150rpx;margin-bottom:10rpx;position:relative;'>
+      <image  src='{{item.imageUrl}}' data-index='{{index}}' style='width:100%; height:100%;' catchtap='preImage'></image>
+      <image src='/images/ico_del.png' data-index='{{index}}' style='position: absolute; width:40rpx; height: 40rpx; top:10rpx; right:10rpx;' catchtap='deleteImage'></image>
+      </view>
+      </block>
+      <image  src='/images/up_pic_add.png' style='width:33.3%; height:150rpx;background:#eee;' catchtap='clickAddPhoto'></image>
+    </view>
+    <view>
+    <view style='width:200rpx;  background:green; border-radius:10rpx; text-align:center; padding:10rpx; font-size:30rpx; margin-top:10rpx;' catchtap='clickIWantToSay'>我还想说</view>
+      <view class='aaa {{aaa_style}}' hidden='{{isHidden}}' animation="{{animation_1}}">
+        <textarea style='height: 100rpx; border-bottom:1rpx solid gray; width:100%;' placeholder='输入您想说的话'></textarea>
+        <view style='font-size:30rpx; text-align:center;padding:10rpx 0;height:50rpx;' catchtap='closeIwantToSay'>不说了</view>
+      </view>
+    </view>
+    <view style='background:white;height:500rpx;'>jfdafjdsaf</view>
+
+  </div>
+  <view class='flexRowCenter' style='position:fixed; left:0; right:0;bottom:0;height:100rpx; align-items:center; text-align:center;color:white;'>
+   <view style='height:80rpx;line-height:80rpx; width:40%;margin-right:30rpx;background:blue;border-radius:20rpx;'> 暂存
+   </view>
+    <view  style='height:80rpx;line-height:80rpx; width:40%;background:blue;border-radius:20rpx;'>提交
+   </view>
+
+  </view>
+</view>
